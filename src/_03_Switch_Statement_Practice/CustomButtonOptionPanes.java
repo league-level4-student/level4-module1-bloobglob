@@ -23,7 +23,11 @@ public class CustomButtonOptionPanes {
 		case "Wednesday":
 			JOptionPane.showMessageDialog(null, "Early release!");
 		case "Thursday":
-			
+			JOptionPane.showMessageDialog(null, "Nothing special today");
+		case "Friday":
+			JOptionPane.showMessageDialog(null, "Last day of school!");
+		case "Saturday":
+			JOptionPane.showMessageDialog(null, "WEEKEND!");
 		}
 	}
 }
